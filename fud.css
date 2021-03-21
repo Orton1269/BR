@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: whitesmoke;
+}
+.bgbox{
+    background-color: white;
+    height: 800px;
+    width: 1250px;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    box-shadow: 2px 2px 2px black;
+}
+.bgimg{
+    height: 500px;
+    width: 1250px;
+    position: absolute;
+    left: 4%;
+    top: 7%;
+}
+.upbox{
+    background-color: lightgray;
+    height: 20px;
+    width: 1250px;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+}
+.c1{
+    height: 10px;
+    width: 10px;
+}
+.c2{
+    height: 10px;
+    width: 10px;
+}
+.c3{
+    height: 10px;
+    width: 10px;
+}
+.c{
+    position: absolute;
+    left: 4.5%;
+    top: 28px;
+}
+.logo{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 55px;
+    left: 60px;
+}
+.logol{
+    position: absolute;
+    top: 53px;
+    left: 80px;
+    font-family: 'Berkshire Swash', cursive;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes text{
+    from{background-color: black;}
+    to{background-color: white;}
+}
+.mwrite{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    word-spacing: 2px;   
+    font-family: 'Lobster', cursive;
+    animation-name: test2;
+    animation-duration: 3s;
+}
+@keyframes test2{
+    0%{
+        top: 540px;
+        left: 150px;
+    }
+    33%{
+        top: 540px;
+        left: 150px;
+    }
+    66%{
+        top: 540px;
+        left: 150px;
+    }
+    100%{
+        top: 300px;
+        left: 150px;
+    }
+}
+.mwrite2{
+    position: absolute;
+    top: 383px;
+    left: 150px;
+    font-family: 'Montserrat', sans-serif;
+    animation-name: test;
+    animation-duration: 3s;
+}
+@keyframes test{
+    0%{
+        top: 28px;
+        left: 150px;
+    }
+    33%{
+        top: 280px;
+        left: 150px;
+    }
+    66%{
+        top: 280px;
+        left: 150px;
+    }
+    100%{
+        top: 383px;
+        left: 150px;
+    }
+}
+.i1{
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px;
+    padding-right: 75px;
+    border-color: white;
+    position: absolute;
+    top: 410px;
+    left: 145px;
+    background-color: transparent;
+    color: white;
+}
+select{
+    border-radius: 0px 20px 20px 0px;
+    padding: 8px;
+    border-color: white;
+    position: absolute;
+    top: 410px;
+    left: 400px;
+    background-color: transparent;
+    color: white;
+}
+ul{
+    position: absolute;
+    top: 30px;
+    left: 290px;
+    list-style: none;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    color: #ffffff;
+}
+ul li{
+    padding: 10px;
+    font-size: 19px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.icon{
+    position: absolute;
+    top: 76px;
+    left: 768px;
+    animation-name: ic;
+    animation-duration: 2s;
+}
+@keyframes ic{
+    0%{
+        top: 76px;
+        left: 210px;
+    }
+    33%{
+        top: 64px;
+        left: 210px;
+    }
+    66%{
+        top: 64px;
+        left: 210px;
+    }
+    100%{
+        top: 76px;
+        left: 768px;
+    }
+}
+.i2{
+    border-radius: 20px 20px 20px 20px;
+    padding: 6px;
+    border-color: white;
+    position: absolute;
+    width: 135px;
+    top: 110px;
+    left: 750px;
+    background-color: transparent;
+    color: white;
+}
+.lr1{
+    position: absolute;
+    left: 550px;
+    top: 570px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+.lr2{
+    position: absolute;
+    left: 480px;
+    top: 615px;
+    width: 400px;
+    text-align: center;
+}
+.fi{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    height: 150px;
+    width: 200px;
+    background-color: transparent;
+    animation-name: ai;
+    animation-duration: 4s;
+}
+@keyframes ai{
+    0%{
+        top: 130px;
+        left: 510px;
+    }
+    33%{
+        top: 130px;
+        left: 510px;
+    }
+    66%{
+        top: 130px;
+        left: 510px;
+    }
+    100%{
+        top: 130px;
+        left: 150px;
+    }
+}
+.p1{
+    position: absolute;
+    top: 680px;
+    left: 150px;
+    height: 150px;
+    width: 200px;
+}
+.p2{
+    position: absolute;
+    top: 680px;
+    left: 450px;
+    height: 150px;
+    width: 200px;
+}
+.p3{
+    position: absolute;
+    top: 680px;
+    left: 700px;
+    height: 150px;
+    width: 200px;
+}
+.p4{
+    position: absolute;
+    top: 680px;
+    left: 1025px;
+    height: 150px;
+    width: 200px;
+}
+.pt1{
+    position: absolute;
+    top: 660px;
+    left: 230px;
+}
+.pt2{
+    position: absolute;
+    top: 660px;
+    left: 530px;
+}
+.pt3{
+    position: absolute;
+    top: 660px;
+    left: 780px;
+}
+.pt4{
+    position: absolute;
+    top: 660px;
+    left: 1077px;
+}
+@media screen and (max-width:600px)
+{
+    .logo{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: 50px;
+        left: 30px;
+    }
+    .logol{
+        position: absolute;
+        top: 48px;
+        left: 50px;
+        font-family: 'Berkshire Swash', cursive;
+        animation-name: text;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes text{
+        from{background-color: black;}
+        to{background-color: white;}
+    }
+    .mwrite{
+        position: absolute;
+        top: 300px;
+        left: 80px;
+        word-spacing: 2px;   
+        font-family: 'Lobster', cursive;
+        animation-name: test2;
+        animation-duration: 3s;
+    }
+    @keyframes test2{
+        0%{
+            top: 540px;
+            left: 150px;
+        }
+        33%{
+            top: 540px;
+            left: 150px;
+        }
+        66%{
+            top: 540px;
+            left: 150px;
+        }
+        100%{
+            top: 300px;
+            left: 80px;
+        }
+    }
+    .mwrite2{
+        position: absolute;
+        top: 383px;
+        left: 80px;
+        font-family: 'Montserrat', sans-serif;
+        animation-name: test;
+        animation-duration: 3s;
+    }
+    @keyframes test{
+        0%{
+            top: 28px;
+            left: 150px;
+        }
+        33%{
+            top: 280px;
+            left: 150px;
+        }
+        66%{
+            top: 280px;
+            left: 150px;
+        }
+        100%{
+            top: 383px;
+            left: 80px;
+        }
+    }
+    .i1{
+        border-radius: 20px 0px 0px 20px;
+        padding: 8px;
+        padding-right: 75px;
+        border-color: white;
+        position: absolute;
+        top: 410px;
+        left: 75px;
+        background-color: transparent;
+        color: white;
+    }
+    select{
+        border-radius: 0px 20px 20px 0px;
+        padding: 8px;
+        border-color: white;
+        position: absolute;
+        top: 410px;
+        left: 330px;
+        background-color: transparent;
+        color: white;
+    }
+    .fi{
+        position: absolute;
+        top: 130px;
+        left: 120px;
+        height: 150px;
+        width: 200px;
+        background-color: transparent;
+        animation-name: ai;
+        animation-duration: 4s;
+    }
+    @keyframes ai{
+        0%{
+            top: 130px;
+            left: 510px;
+        }
+        33%{
+            top: 130px;
+            left: 510px;
+        }
+        66%{
+            top: 130px;
+            left: 510px;
+        }
+        100%{
+            top: 130px;
+            left: 120px;
+        }
+    }
+    ul{
+        position: absolute;
+        top: 30px;
+        left: 140px;
+        list-style: none;
+        display: flex;
+        font-family: 'Indie Flower', cursive;
+        color: #ffffff;
+    }
+    ul li{
+        padding: 10px;
+        font-size: 11px;
+    }
+    .icon{
+        position: absolute;
+        top: 76px;
+        left: 448px;
+        animation-name: ic;
+        animation-duration: 2s;
+    }
+    @keyframes ic{
+        0%{
+            top: 80px;
+            left: 150px;
+        }
+        33%{
+            top: 80px;
+            left: 150px;
+        }
+        66%{
+            top: 80px;
+            left: 150px;
+        }
+        100%{
+            top: 76px;
+            left: 448px;
+        }
+    }
+    .lr1{
+        position: absolute;
+        left: 120px;
+        top: 570px;
+        font-family: 'Lobster', cursive;
+        letter-spacing: 1px;
+    }
+    .lr2{
+        position: absolute;
+        left: 50px;
+        top: 615px;
+        width: 400px;
+        text-align: center;
+    }
+    .p2{
+        position: absolute;
+        top: 900px;
+        left: 150px;
+        height: 150px;
+        width: 200px;
+    }
+    .p3{
+        position: absolute;
+        top: 1120px;
+        left: 150px;
+        height: 150px;
+        width: 200px;
+    }
+    .p4{
+        position: absolute;
+        top: 1310px;
+        left: 150px;
+        height: 150px;
+        width: 200px;
+    }
+    .pt1{
+        position: absolute;
+        top: 660px;
+        left: 225px;
+    }
+    .pt2{
+        position: absolute;
+        top: 857px;
+        left: 225px;
+    }
+    .pt3{
+        position: absolute;
+        top: 1110px;
+        left: 221px;
+    }
+    .pt4{
+        position: absolute;
+        top: 1275px;
+        left: 205px;
+    }
+}
